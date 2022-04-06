@@ -9,6 +9,10 @@ module.exports = {
           
 
         },
+        width: {
+          120: '43.5rem'
+        },
+       
         fontFamily:{
             'titanOne' : ['Titan One', 'cursive'],
             'belleza': ['Belleza', 'sans-serif'],
@@ -17,7 +21,8 @@ module.exports = {
     
           },
           colors: {
-            darkBlue: '#032147'
+            darkBlue: '#032147',
+            lightGreen : '#49FEC1AB'
           }
       },
     },

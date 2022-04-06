@@ -4,11 +4,12 @@ import { Link, Route, Routes } from "react-router-dom";
 export default function Navbar() {
   return (
     <>
-      <div className="navbar p-4 bg-blurgreen backdrop-blur-2xl">
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/events">Events</Link>
-        <Link to="/resources">Resources</Link>
+      <div className="navbar p-8 bg-blurgreen bg-opacity-60 rounded-full ml-40 mt-10 w-120 shadow-xl">
+        <Link className="mr-2 pl-5 pr-5 pt-3 pb-3 bg-lightGreen rounded-full font-extrabold shadow-lg text-xl" to="/">Home</Link>
+        <Link className="ml-2 mr-2  pl-5 pr-5 pt-3 pb-3 bg-lightGreen rounded-full font-extrabold text-xl"to="/about">About</Link>
+        <Link className="ml-2 mr-2  pl-5 pr-5 pt-3 pb-3 bg-lightGreen rounded-full font-extrabold  text-xl" to="/events">Events</Link>
+        <Link className="ml-2  mr-2 pl-5 pr-5 pt-3 pb-3 bg-lightGreen rounded-full font-extrabold  text-xl" to="/resources">Resources</Link>
+        <Link className="ml-2 mr-2  pl-5 pr-5 pt-3 pb-3 bg-lightGreen rounded-full font-extrabold text-xl" to="/contact">Contact</Link>
       </div>
     </>
   );
