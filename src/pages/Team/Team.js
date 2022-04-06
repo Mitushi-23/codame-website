@@ -1,13 +1,10 @@
 import React from 'react';
 import Navbar from '../../components/Navbar';
 
-export default function Events(Link){
-    return(
+export default function Navbar(){
+    return (
         <>
         <Navbar />
-        
         </>
-
     )
-
 }
