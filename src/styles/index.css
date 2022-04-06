@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Inconsolata:wght@700&display=swap');
+
 :root {
   /* Theme colors (changed using js) */
   --color-dark-background: #0b0a0d;
@@ -23,6 +25,7 @@ body {
   color: var(--active-color-text);
   height: 100%;
   width: 100%;
+  box-sizing: border-box;
 }
 #root {
   height: 100%;
