@@ -4,15 +4,20 @@ module.exports = {
     content: ["./src/**/*.{html,js,jsx}"],
     theme: {
       extend: {
+        backgroundColor:{
+          blurgreen: '#3DD5A273',
+          
+
+        },
         fontFamily:{
             'titanOne' : ['Titan One', 'cursive'],
             'belleza': ['Belleza', 'sans-serif'],
-            'inconsolota' : ['Inconsolota', 'sans-serif']
+            'inconsolota' : ['Inconsolota', 'monospace']
     
     
           },
           colors: {
-            blueGray: colors.slate
+            darkBlue: '#032147'
           }
       },
     },
