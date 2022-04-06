@@ -10,7 +10,8 @@ module.exports = {
 
         },
         width: {
-          120: '43.5rem'
+          120: '49.5rem',
+          130: '60rem'
         },
        
         fontFamily:{
