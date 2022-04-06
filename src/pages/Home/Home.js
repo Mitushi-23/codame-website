@@ -1,8 +1,6 @@
 import React from 'react';
-import logo from '../assets/logo.png'
-import circle from '../assets/circle.png'
-import styles from '../styles/index.css';
-import Navbar from '../components/Navbar';
+import styles from '../../styles/index.css';
+import Navbar from '../../components/Navbar';
 
 
 export default function Home(){

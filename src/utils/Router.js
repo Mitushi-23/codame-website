@@ -1,10 +1,11 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Home from '../pages/Home'
-import About from "../pages/About";
-import Events from "../pages/Events";
-import Resources from "../pages/Resources";
+import Home from '../pages/Home/Home'
+import About from "../pages/About/About";
+import Events from "../pages/Events/Events";
+import Resources from "../pages/Resources/Resources";
+import Contact from "../pages/Contact/Contact";
 
 export default function Router() {
   return (
@@ -22,6 +23,9 @@ export default function Router() {
           </Route>
           <Route exact path="/resources" element={<Resources />}>
             Resources
+          </Route>
+          <Route exact path="/contact" element={<Contact />}>
+            Contact
           </Route>
         </Routes>
       </BrowserRouter>
