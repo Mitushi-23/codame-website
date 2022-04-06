@@ -24,6 +24,9 @@ export default function Router() {
           <Route exact path="/resources" element={<Resources />}>
             Resources
           </Route>
+          <Route exact path="/team" element={<Contact />}>
+            Team
+          </Route>
           <Route exact path="/contact" element={<Contact />}>
             Contact
           </Route>
