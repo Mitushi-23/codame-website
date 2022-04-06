@@ -9,7 +9,7 @@ import Contact from "../pages/Contact/Contact";
 
 export default function Router() {
   return (
-    <>
+    <div>
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home />}>
@@ -29,6 +29,6 @@ export default function Router() {
           </Route>
         </Routes>
       </BrowserRouter>
-    </>
+    </div>
   );
 }

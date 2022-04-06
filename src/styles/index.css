@@ -16,14 +16,17 @@
   --active-color-background: #e6e6e6;
   --active-color-text: #000000;
 }
-
+*{
+  margin: 0;
+  padding: 0;
+}
 html,
 body {
   margin: 0;
   padding: 0;
   background-color: var(--active-color-background);
   color: var(--active-color-text);
-  height: 100%;
+  height: 90%;
   width: 100%;
   box-sizing: border-box;
 }
