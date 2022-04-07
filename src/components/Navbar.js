@@ -28,7 +28,7 @@ export default function Navbar({ active }) {
   return (
     <>
 
-      <div className="navbar p-4 bg-blurgreen bg-opacity-60 rounded-full ml-32 mt-7 w-[44rem]  shadow-2xl">
+      <div className="navbar p-4 bg-blurgreen bg-opacity-60 rounded-full ml-32 mt-7 w-[45.5rem] shadow-2xl">
         <Link className={className_home} to="/">Home</Link>
         <Link className={className_about} to="/about">About</Link>
         <Link className={className_events} to="/events">Events</Link>
