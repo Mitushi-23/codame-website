@@ -3,6 +3,7 @@ import styles from '../../styles/index.css';
 import Navbar from '../../components/Navbar';
 import circle from '../../assets/circle.svg';
 import logo from '../../assets/logo.png';
+import vector from '../../assets/vector.svg';
 
 
 
@@ -13,10 +14,8 @@ export default function Home() {
             <div className="home_page">
                 <Navbar active="home"/>
 
-                <img src={circle} className="absolute top-0 right-0 w-[28rem] z-1" />
-
-
-
+                <img src={circle} className="absolute top-0 right-0 w-[30-rem] z-1" />
+                
                 <div className="hero_section m-10 p-8" >
                     <img src={logo} className="float-left h-96" />
                     <div className="title">
@@ -26,6 +25,9 @@ export default function Home() {
                     </div>
 
                 </div>
+                {/* <div className="vector">
+                    <img src={vector} />
+                </div> */}
 
 
 

@@ -17,7 +17,8 @@ module.exports = {
         fontFamily:{
             'titanOne' : ['Titan One', 'cursive'],
             'belleza': ['Belleza', 'sans-serif'],
-            'inconsolota' : ['Inconsolota', 'monospace']
+            'inconsolota' : ['Inconsolota', 'monospace'],
+            'encodeSans' : ['Encode Sans', 'sans-serif']
     
     
           },
