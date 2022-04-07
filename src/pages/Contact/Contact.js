@@ -7,7 +7,7 @@ export default function Contact(){
     return(
         <>
              <div className=''>
-        <Navbar />
+        <Navbar active="contact" />
         <img src={event} alt="" className='absolute top-0 right-0' />
         <div className=''>
             <h1 className='text-darkBlue font-belleza text-7xl uppercase mt-20 z-5 text-center'>Contact</h1>

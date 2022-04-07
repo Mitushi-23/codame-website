@@ -11,7 +11,7 @@ import '../../styles/index.css'
 export default function Events(Link){
     return(
         <div className=''>
-        <Navbar />
+        <Navbar active="events"/>
         <img src={event} alt="" className='absolute top-0 right-0' />
         <div className=''>
             <h1 className='text-darkBlue font-belleza text-9xl uppercase mt-20 z-5 text-center'>Events</h1>

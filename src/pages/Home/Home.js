@@ -11,7 +11,7 @@ export default function Home() {
         
 
             <div className="home_page">
-                <Navbar />
+                <Navbar active="home"/>
 
                 <img src={circle} className="absolute top-0 right-0 w-[28rem] z-1" />
 
