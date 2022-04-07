@@ -27,6 +27,7 @@ export default function Navbar({ active }) {
 
   return (
     <>
+
       <div className="navbar p-4 bg-blurgreen bg-opacity-60 rounded-full ml-32 mt-7 w-[44rem] shadow-2xl">
         <Link className={className_home} to="/">Home</Link>
         <Link className={className_about} to="/about">About</Link>
@@ -34,6 +35,8 @@ export default function Navbar({ active }) {
         <Link className={className_resources} to="/resources">Resources</Link>
         <Link className={className_team} to="/team">Team</Link>
         <Link className={className_contact} to="/contact">Contact</Link>
+
+     
       </div>
     </>
   );
