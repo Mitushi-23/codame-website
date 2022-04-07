@@ -6,6 +6,7 @@ import About from "../pages/About/About";
 import Events from "../pages/Events/Events";
 import Resources from "../pages/Resources/Resources";
 import Contact from "../pages/Contact/Contact";
+import Team from "../pages/Team/Team";
 
 export default function Router() {
   return (
@@ -24,7 +25,7 @@ export default function Router() {
           <Route exact path="/resources" element={<Resources />}>
             Resources
           </Route>
-          <Route exact path="/team" element={<Contact />}>
+          <Route exact path="/team" element={<Team />}>
             Team
           </Route>
           <Route exact path="/contact" element={<Contact />}>
