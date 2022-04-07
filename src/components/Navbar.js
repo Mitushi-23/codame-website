@@ -9,7 +9,7 @@ export default function Navbar() {
         <Link className="about ml-2 mr-2  pl-5 pr-5 pt-2 pb-2 bg-lightGreen rounded-full font-extrabold text-lg"to="/about">About</Link>
         <Link className="events ml-2 mr-2  pl-5 pr-5 pt-2 pb-2 bg-lightGreen rounded-full font-extrabold  text-lg" to="/events">Events</Link>
         <Link className="resources ml-2  mr-2 pl-5 pr-5 pt-2 pb-2 bg-lightGreen rounded-full font-extrabold  text-lg" to="/resources">Resources</Link>
-        <Link className="contact l-2 mr-2  pl-5 pr-5 pt-2 pb-2 bg-lightGreen rounded-full font-extrabold text-lg" to="/contact">Team</Link>
+        <Link className="contact l-2 mr-2  pl-5 pr-5 pt-2 pb-2 bg-lightGreen rounded-full font-extrabold text-lg" to="/team">Team</Link>
           <Link className="contact l-2 mr-2  pl-5 pr-5 pt-2 pb-2 bg-lightGreen rounded-full font-extrabold text-lg" to="/contact">Contact</Link>
       </div>
     </>
