@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Encode+Sans:wght@700&family=Inconsolata:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Belleza&family=Encode+Sans:wght@700&family=Inconsolata:wght@700&display=swap");
 
 :root {
   /* Theme colors (changed using js) */
@@ -16,7 +16,7 @@
   --active-color-background: #e6e6e6;
   --active-color-text: #000000;
 }
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -35,3 +35,19 @@ body {
   width: 100%;
 }
 
+.buuu {
+  position: absolute;
+  width: 70%;
+  height: 38%;
+  left: -800px;
+  top: 400.52px;
+  background: linear-gradient(
+    176deg,
+    rgba(3, 32, 71, 0) 22.4%,
+    rgba(3, 32, 70, 0.19283) 50.85%,
+    rgba(4, 31, 68, 0.73) 63.18%,
+    #032047 90.04%
+  );
+  filter: blur(144px);
+  transform: rotate(15deg);
+}
