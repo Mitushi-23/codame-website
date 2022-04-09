@@ -23,7 +23,7 @@ export default function Events(){
         </div>
 
 
-        <div className="flex flex-row flex justify-evenly gap-4 content-center">
+        <div className="flex flex-row justify-evenly gap-4 content-center">
         <div className="">
             <div className="h-16 w-96 bg-emerald-400 text-white font-bold text-center text-2xl rounded-sm">Upcoming events</div>
             <div className="h-96 w-96 bg-emerald-50 rounded-sm"></div>

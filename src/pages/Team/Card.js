@@ -21,12 +21,12 @@ export default function Card(props) {
           <h3 className="uppercase mt-3 text-center text-darkBlue font-semibold">
             {props.name}
           </h3>
-          <div className="w-40 hidden group-hover:block">
+          <div className="w-40 ">
           <div className="grid grid-cols-4 gap-4">
-            <img className="linkedin" src={linkedinImg} />
-            <img className="github" src={githubImg} />
-            <img className="twitter" src={twitterImg} />
-            <img className="instagram" src={instagramImg} />
+            <img className="linkedin hover:scale-125" src={linkedinImg} />
+            <img className="github hover:scale-125" src={githubImg} />
+            <img className="twitter hover:scale-125" src={twitterImg} />
+            <img className="instagram hover:scale-125" src={instagramImg} />
             </div>
           </div>
         </div>

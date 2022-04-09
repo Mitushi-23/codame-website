@@ -27,7 +27,7 @@ export default function Home() {
             </div>
 
 
-            <div className="buuu">
+            <div className="blueGradient">
 
             </div>
 
