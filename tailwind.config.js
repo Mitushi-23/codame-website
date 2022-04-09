@@ -4,6 +4,7 @@ module.exports = {
     content: ["./src/**/*.{html,js,jsx}"],
     theme: {
       extend: {
+        display: ["group-hover"],
         backgroundColor:{
           blurgreen: '#3DD5A273',
           
