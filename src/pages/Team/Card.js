@@ -14,8 +14,8 @@ export default function Card(props) {
     
 return (
     <div className="card-container">
-    <div class="container grid grid-cols-3 gap-3 mx-auto group ">
-      <div class="w-40">
+    <div class="container grid grid-cols-3 gap-3 mx-auto">
+      <div class="w-40 group">
         <img className="rounded-full border-8 border-lightGreen" src={team} />
         <h3 className="uppercase mt-3 text-center text-darkBlue font-semibold">
           {props.name}
