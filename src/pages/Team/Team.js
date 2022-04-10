@@ -26,7 +26,7 @@ export default function Team() {
         <Card name="Elon Musk" />
       </div>
 
-      <div className="mt-20 founding_members text-4xl font-medium uppercase text-darkBlue font-encodeSans text-center">
+      <div className="mt-20 founding_members text-4xl font-medium uppercase text-darkBlue font-encodeSans text-center ">
         Competitive Programming Team
       </div>
       <div className="container grid grid-cols-5 gap-5 ml-auto mr-auto mt-10">
@@ -38,7 +38,7 @@ export default function Team() {
         
       </div>
 
-      <div className="mt-20 founding_members text-4xl font-medium uppercase text-darkBlue font-encodeSans text-center">
+      <div className="mt-20 mb-20 founding_members text-4xl font-medium uppercase text-darkBlue font-encodeSans text-center">
         Web Development Team
       </div>
       <div className="container grid grid-cols-5 gap-5 ml-auto mr-auto mt-10">
