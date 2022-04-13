@@ -28,9 +28,9 @@ export default function Router() {
           <Route exact path="/team" element={<Team />}>
             Team
           </Route>
-          <Route exact path="/contact" element={<Contact />}>
+          {/* <Route exact path="/contact" element={<Contact />}>
             Contact
-          </Route>
+          </Route> */}
         </Routes>
       </BrowserRouter>
     </div>

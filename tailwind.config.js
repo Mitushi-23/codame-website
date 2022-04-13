@@ -19,7 +19,8 @@ module.exports = {
             'titanOne' : ['Titan One', 'cursive'],
             'belleza': ['Belleza', 'sans-serif'],
             'inconsolota' : ['Inconsolota', 'monospace'],
-            'encodeSans' : ['Encode Sans', 'sans-serif']
+            'encodeSans' : ['Encode Sans', 'sans-serif'],
+            'poppins': ['Poppins', 'sans-serif']
     
     
           },
