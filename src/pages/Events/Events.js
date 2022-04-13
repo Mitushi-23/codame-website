@@ -21,19 +21,37 @@ export default function Events(){
             <p className='text-black font-bold font-titanOne tracking-wide w-120 m-auto text-center mt-20 text-2xl'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque laborum nostrum magni cumque suscipit voluptates in, a, dolores harum, voluptate facilis odit fuga culpa enim quasi. Praesentium quibusdam provident sunt.</p>
       
         </div>
-
-
-        <div className="flex flex-row justify-evenly gap-4 content-center">
-        <div className="">
-            <div className="h-16 w-96 bg-emerald-400 text-white font-bold text-center text-2xl rounded-sm">Upcoming events</div>
-            <div className="h-96 w-96 bg-emerald-50 rounded-sm"></div>
+        <div className="space-y-8">
+        <div className="text-darkBlue text-center font-mono font-bold text-4xl">Upcoming events</div>
+        <div className="flex flex-row justify-evenly">
+            <div className="relative h-44 w-60 bg-emerald-300 rounded-3xl ">
+                     <div className="absolute h-44 w-60 -left-4 -top-4 bg-emerald-200 rounded-3xl -z-20 opacity-80"></div>
+            </div>
+            <div className="relative h-44 w-60 bg-emerald-300 rounded-3xl ">
+                     <div className="absolute h-44 w-60 -left-4 -top-4 bg-emerald-200 rounded-3xl -z-20 opacity-80"></div>
+            </div>
+            <div className="relative h-44 w-60 bg-emerald-300 rounded-3xl ">
+                     <div className="absolute h-44 w-60 -left-4 -top-4 bg-emerald-200 rounded-3xl -z-20 opacity-80"></div>
+            </div>
+            
         </div>
-
-        <div className=" ">
-            <div className="h-16 w-96 bg-emerald-400 text-white font-bold text-center text-2xl rounded-sm">Past events</div>
-            <div className="h-96 w-96 bg-emerald-50 rounded-sm"></div>
+        </div>
+        <div className="space-y-8">
+        <div className="text-darkBlue text-center font-mono font-bold text-4xl">Past events</div>
+        <div className="flex flex-row justify-evenly">
+            <div className="relative h-44 w-60 bg-emerald-300 rounded-3xl ">
+                     <div className="absolute h-44 w-60 -left-4 -top-4 bg-emerald-200 rounded-3xl -z-20 opacity-80"></div>
+            </div>
+            <div className="relative h-44 w-60 bg-emerald-300 rounded-3xl ">
+                     <div className="absolute h-44 w-60 -left-4 -top-4 bg-emerald-200 rounded-3xl -z-20 opacity-80"></div>
+            </div>
+            <div className="relative h-44 w-60 bg-emerald-300 rounded-3xl ">
+                     <div className="absolute h-44 w-60 -left-4 -top-4 bg-emerald-200 rounded-3xl -z-20 opacity-80"></div>
+            </div>
+       
         </div>
         </div>
+       
         </div>
         </div>
 
