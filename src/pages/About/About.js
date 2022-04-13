@@ -10,7 +10,7 @@ export default function About() {
             <img src={triangle} alt="" className='absolute top-0 right-0' />
             <div className="">
                 <h1 className='text-darkBlue font-encodeSans text-9xl uppercase mt-20 z-5 text-center'>About</h1>
-                <p className='text-black font-bold font-titanOne tracking-wide w-120 m-auto text-justify mt-20 text-xl'>
+                <p className='text-black font-semibold font-poppins tracking-wide w-[65rem] m-auto text-justify mt-20 text-2xl'>
                     CODAME is the coding club of Indian Institute of Information Technology (IIIT) Bhopal , started in Year 2020 which is contineously trying to formalize and organize tech activites in IIIT Bhopal.
                     In the term CODAME , COD comes from code and AME means soul and hence it can be thought as "soul is coding" or while speaking it also sounds like "code aim"
                     , both describes the purpose of the club.

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Belleza&family=Encode+Sans:wght@700&family=Inconsolata:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belleza&&family=Titan+One&&family=Poppins:wght@500&family=Encode+Sans:wght@700&family=Inconsolata:wght@700&display=swap");
 
 :root {
   /* Theme colors (changed using js) */
@@ -35,7 +35,7 @@ body {
   width: 100%;
 }
 
-.buuu {
+.blueGradient {
   position: absolute;
   width: 70%;
   height: 38%;
@@ -48,6 +48,6 @@ body {
     rgba(4, 31, 68, 0.73) 63.18%,
     #032047 90.04%
   );
-  filter: blur(144px);
+  filter: blur(100px);
   transform: rotate(15deg);
 }
