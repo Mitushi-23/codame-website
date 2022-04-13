@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../../components/Navbar";
 import triangle from "../../assets/triangle.svg";
 import team from "../../assets/team.png";
 import Card from "./Card";
@@ -19,7 +18,6 @@ const images = importAll(
 export default function Team() {
   return (
     <div className="pb-20">
-      <Navbar active="team" />
       <img
         src={images["triangle.svg"]}
         alt=""
