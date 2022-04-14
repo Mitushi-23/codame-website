@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../../components/Navbar';
 import triangle from '../../assets/triangle.svg'
 import '../../styles/index.css'
 import Card from './Card';
@@ -13,7 +12,6 @@ export default function Events(){
     return(
         <div className=''>
 
-        <Navbar active="events"/>
         <img src={triangle} alt="" className='absolute top-0 right-0' />
         <div className="space-y-44">
         <div className=''>
