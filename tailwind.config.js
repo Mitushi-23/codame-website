@@ -20,7 +20,8 @@ module.exports = {
             'belleza': ['Belleza', 'sans-serif'],
             'inconsolota' : ['Inconsolota', 'monospace'],
             'encodeSans' : ['Encode Sans', 'sans-serif'],
-            'poppins': ['Poppins', 'sans-serif']
+            'poppins': ['Poppins', 'sans-serif'],
+            'fredoka' : ['Fredoka One', 'cursive']
     
     
           },
