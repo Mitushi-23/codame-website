@@ -42,7 +42,7 @@ export default function Navbar() {
     <>
       <div className="flex flex-row">
         <div className="navbar p-4 bg-blurgreen bg-opacity-60 rounded-full ml-32 mr-32 w-[9rem] uppercase mt-7 shadow-2xl">
-        <Link className={className_home} to="/">
+        <Link className="home mr-2 pl-5 pr-5 pt-2 pb-2 bg-lightGreen rounded-full font-extrabold text-lg shadow-2xl" to="/">
             Codame
           </Link>
         </div>
