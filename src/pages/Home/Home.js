@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from '../../styles/index.css';
-import Navbar from '../../components/Navbar';
 import circle from '../../assets/circle.svg';
 import logo from '../../assets/logo.png';
 import vector from '../../assets/vector.svg';
@@ -12,7 +11,6 @@ export default function Home() {
 
 
         <div className="home_page">
-            <Navbar active="home" />
 
             <img src={circle} className=" w-[14rem] absolute top-0 right-0 z-1 sm:w-[14rem] md:w-[25rem] lg:w-[30rem]" />
 

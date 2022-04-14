@@ -1,7 +1,9 @@
 import React from "react";
-import { Link, Route, Routes } from "react-router-dom";
+import { Link, Route, Routes, useLocation } from "react-router-dom";
 
-export default function Navbar({ active }) {
+export default function Navbar() {
+  let location=useLocation().pathname;
+  // console.log();
   let className_home =
     "home mr-2 pl-5 pr-5 pt-2 pb-2 bg-lightGreen rounded-full font-extrabold text-lg";
   let className_about =
@@ -15,23 +17,23 @@ export default function Navbar({ active }) {
   let className_team =
     "contact l-2 mr-2  pl-5 pr-5 pt-2 pb-2 bg-lightGreen rounded-full font-extrabold text-lg";
 
-  switch (active) {
-    case "home":
+  switch (location) {
+    case "/":
       className_home += " shadow-xl";
       break;
-    case "about":
+    case "/about":
       className_about += " shadow-xl";
       break;
-    case "events":
+    case "/events":
       className_events += " shadow-xl";
       break;
-    case "resources":
+    case "/resources":
       className_resources += " shadow-xl";
       break;
-    case "contact":
+    case "/contact":
       className_contact += " shadow-xl";
       break;
-    case "team":
+    case "/team":
       className_team += " shadow-xl";
       break;
   }
