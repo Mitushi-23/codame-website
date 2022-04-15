@@ -51,3 +51,10 @@ body {
   filter: blur(100px);
   transform: rotate(15deg);
 }
+
+.card{
+  transition: transform .2s;
+}
+.card:hover{
+ transform: scale(1.2); 
+}
