@@ -51,16 +51,3 @@ body {
   filter: blur(144px);
   transform: rotate(15deg);
 }
-
-.bg{
-  position: absolute;
-width: 2100.59px;
-height: 1290.83px;
-left: -205.13px;
-top: 444px;
-right: 0px;
-background: linear-gradient(169.82deg, rgba(3, 32, 71, 0) 35.33%, rgba(3, 32, 70, 0.19283) 59.04%, rgba(4, 31, 68, 0.73) 69.32%, #032047 91.7%);
-filter: blur(300px);
-transform: rotate(0deg);
-
-}

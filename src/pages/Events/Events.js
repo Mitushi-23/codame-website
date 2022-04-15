@@ -46,7 +46,6 @@ export default function Events() {
             </div>
           </div>
         </div>
-        <div className="bg"></div>
       </div>
     </>
   )
