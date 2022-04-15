@@ -7,6 +7,8 @@ module.exports = {
         display: ["group-hover"],
         backgroundColor:{
           blurgreen: '#3DD5A273',
+          navbg : '#828282',
+          lightPurple:"#BFC3E1"
           
 
         },
@@ -27,7 +29,9 @@ module.exports = {
           },
           colors: {
             darkBlue: '#032147',
-            lightGreen : '#49FEC1AB'
+            lightGreen : '#49FEC1AB',
+            navBlue : '#48486B',
+            moredarkblue :"#191543"
           }
       },
     },

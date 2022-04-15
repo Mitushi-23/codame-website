@@ -8,10 +8,10 @@ import linkedin from "../assets/footer/linkedin.svg";
 import twitter from "../assets/footer/twitter.svg";
 import youtube from "../assets/footer/youtube.svg";
 
-const Footer = () => {
+export default function Footer(){
   return (
     <div>
-      <div className="footer p-5 mt-5 mb-5 w-full bg-lightGreen flex flex-row">
+      <div className="footer p-5 mt-5 mb-5 w-full bg-lightPurple flex flex-row">
         <div className="footer-sec-1 p-3  w-[50%] m-3">
           <img className="" src={codame} />
           <h3 className="m-1 text-2xl  font-medium text-left">
@@ -38,19 +38,19 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="footer-sec-1 p-3 rounded-xl bg-darkBlue w-[50%] m-3">
-          <h3 className="m-1 text-lightGreen font-semibold text-2xl">
+        <div className="footer-sec-1 p-3 rounded-xl bg-navBlue w-[25%] m-3">
+          <h3 className="m-1 text-white font-semibold text-2xl">
             {" "}
             Get In Touch
           </h3>
-          <input type="text" className="p-3 m-2 outline-none rounded-sm placeholder:text-darkBlue placeholder:font-inconsolota bg-lightGreen" placeholder="Email Address" ></input>
-          <input type="text" className="p-3 m-2 outline-none rounded-sm placeholder:text-darkBlue placeholder:font-inconsolota bg-lightGreen"     style={{ height: "100px" }} placeholder="Message" ></input>
+          <input type="text" className="p-3 m-2 outline-none rounded-sm placeholder:text-darkBlue placeholder:font-inconsolota bg-lightPurple" placeholder="Email Address" ></input>
+          <input type="text" className="p-3 m-2 outline-none  rounded-sm placeholder:text-darkBlue placeholder:font-inconsolota bg-lightPurple"     style={{ height: "100px" }} placeholder="Message" ></input>
           <br />
-          <button type="submit" className="submit p-4 m-2 bg-lightGreen rounded-xl text-medium font-inconsolota">Submit</button>
+          <button type="submit" className="submit p-4 m-2 bg-lightPurple rounded-xl text-medium font-inconsolota">Submit</button>
         </div>
       </div>
     </div>
   );
 };
 
-export default Footer;
+

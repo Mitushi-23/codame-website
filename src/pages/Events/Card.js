@@ -63,7 +63,7 @@ const Events=({ImgUrl})=>{
     <>
    
  <div className='card'>
-  <div className="relative h-80 w-[28rem] -left-4 -top-4 bg-emerald-300 rounded-3xl -z-20 opacity-80 my-12">
+  <div className="relative h-80 w-[28rem] -left-4 -top-4 bg-moredarkblue rounded-3xl -z-20 opacity-80 my-12">
   <img className='absolute h-80 w-[28rem] -right-4 -bottom-4 rounded-3xl' src={images[answer]} alt="" />
   </div> 
   </div>
