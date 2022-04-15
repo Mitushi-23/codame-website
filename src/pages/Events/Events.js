@@ -13,7 +13,7 @@ export default function Events(){
         <div className=''>
 
         <img src={triangle} alt="" className='absolute top-0 right-0' />
-        <div className="my-40">
+        <div className="my-20">
         <div className=''>
             <h1 className='text-darkBlue font-encodeSans text-9xl uppercase mt-20 z-5 text-left ml-32'> Events</h1>
          
@@ -21,14 +21,14 @@ export default function Events(){
       
         </div>
         <div className="my-16">
-        <div className="text-darkBlue text-center font-mono font-bold text-5xl mb-16">Upcoming events</div>
+        <div className="text-darkBlue text-left font-encodesans font-bold m-10 text-5xl"> | Upcoming events</div>
         <div className="flex  justify-evenly">
         <Card category="UpcomingEvents"/>
             
         </div>
         </div>
         <div className="my-16">
-        <div className="text-darkBlue text-center font-mono font-bold text-5xl mb-16">Past events</div>
+        <div className="text-darkBlue text-left font-encodesans font-bold m-10 text-5xl"> | Past events</div>
         <div className="flex flex-wrap justify-evenly">
         
             <Card category="PastEvents"/>

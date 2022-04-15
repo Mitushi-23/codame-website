@@ -5,17 +5,17 @@ export default function Navbar() {
   let location=useLocation().pathname;
   // console.log();
   let className_home =
-    "home mr-2 pl-5 pr-5 pt-2 pb-2 bg-lightGreen rounded-full font-extrabold text-lg";
+    "home mr-2 pl-5 pr-5 pt-2 pb-2 bg-navBlue text-white rounded-full font-extrabold text-lg";
   let className_about =
-    "about ml-2 mr-2  pl-5 pr-5 pt-2 pb-2 bg-lightGreen rounded-full font-extrabold text-lg";
+    "about ml-2 mr-2  pl-5 pr-5 pt-2 pb-2 bg-navBlue text-white rounded-full font-extrabold text-lg";
   let className_events =
-    "events ml-2 mr-2  pl-5 pr-5 pt-2 pb-2 bg-lightGreen rounded-full font-extrabold  text-lg";
+    "events ml-2 mr-2  pl-5 pr-5 pt-2 pb-2 bg-navBlue text-white rounded-full font-extrabold  text-lg";
   let className_resources =
-    "resources ml-2  mr-2 pl-5 pr-5 pt-2 pb-2 bg-lightGreen rounded-full font-extrabold  text-lg";
+    "resources ml-2  mr-2 pl-5 pr-5 pt-2 pb-2 bg-navBlue text-white rounded-full font-extrabold  text-lg";
   let className_contact =
-    "contact l-2 mr-2  pl-5 pr-5 pt-2 pb-2 bg-lightGreen rounded-full font-extrabold text-lg";
+    "contact l-2 mr-2  pl-5 pr-5 pt-2 pb-2 bg-navBlue text-white rounded-full font-extrabold text-lg";
   let className_team =
-    "contact l-2 mr-2  pl-5 pr-5 pt-2 pb-2 bg-lightGreen rounded-full font-extrabold text-lg";
+    "contact l-2 mr-2  pl-5 pr-5 pt-2 pb-2 bg-navBlue text-white rounded-full font-extrabold text-lg";
 
   switch (location) {
     case "/":
@@ -41,13 +41,13 @@ export default function Navbar() {
   return (
     <>
       <div className="flex flex-row">
-        <div className="navbar p-4 bg-blurgreen bg-opacity-60 rounded-full ml-32 mr-32 w-[9rem] uppercase mt-7 shadow-2xl">
-        <Link className="home mr-2 pl-5 pr-5 pt-2 pb-2 bg-lightGreen rounded-full font-extrabold text-lg shadow-2xl" to="/">
+        <div className="navbar p-4 bg-navbg bg-opacity-60 rounded-full ml-32 mr-32 w-[9rem] uppercase mt-7 shadow-2xl">
+        <Link className="home mr-2 pl-5 pr-5 pt-2 pb-2 bg-navBlue rounded-full font-extrabold text-lg shadow-2xl drop-shadow-2xl text-white" to="/">
             Codame
           </Link>
         </div>
 
-        <div className="navbar p-4 bg-blurgreen bg-opacity-60 rounded-full ml-32 mt-7 w-[38rem] shadow-2xl">
+        <div className="navbar p-4 bg-navbg bg-opacity-60 rounded-full ml-32 mt-7 w-[38rem] shadow-2xl">
           <Link className={className_home} to="/">
             Home
           </Link>
