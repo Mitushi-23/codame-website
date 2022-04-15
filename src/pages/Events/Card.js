@@ -1,13 +1,76 @@
 import React from 'react'
+import {PastEvents,UpcomingEvents} from "./data"
 
-const Card = () => {
+const Card = (props) => {
+  const category = props.category;
+  console.log(category);
+  if(category== "PastEvents"){
   return (
     <>
-      <div className="relative h-64 w-80 bg-emerald-300 rounded-3xl ">
-        <div className="absolute h-64 w-80 -left-4 -top-4 bg-emerald-200 rounded-3xl -z-20 opacity-80"></div>
+    {PastEvents.map((data,key)=>{
+      console.log(key);
+      return(
+      
+          <div key={key}>
+            <Events
+            key={key}
+            ImgUrl={data.ImgUrl}
+            />
       </div>
+      )})}
     </>
   )
 }
+return(
+  <>
+  {UpcomingEvents.map((data,key)=>{
+    return(
+      
+          <div key={key}>
+            <Events
+            key={key}
+            ImgUrl={data.ImgUrl}
+            />
+          </div>
+        
+    )
+  })}
+  </>
+)
+}
+
+function importAll(r) {
+  let images = {};
+  r.keys().map((item, index) => {
+    images[item.replace("./", "")] = r(item);
+  });
+  return images;
+}
+
+const images = importAll(
+  require.context("../../assets", false, /\.(png|jpe?g|svg)$/)
+);
+
+
+const Events=({ImgUrl})=>{
+  const pic = JSON.stringify({ ImgUrl });
+  const array = pic.split(":");
+  const array1 = array[1].split("}");
+  const answer = array1[0].replace(/["]+/g, "");
+
+  if(!ImgUrl) return <div/>;
+  return(
+    <>
+   
+ 
+  <div className="relative h-64 w-80 -left-4 -top-4 bg-emerald-300 rounded-3xl -z-20 opacity-80">
+  <img className='absolute h-64 w-80 -right-4 -bottom-4 rounded-3xl' src={images[answer]} alt="" />
+    
+  </div> 
+
+      </>
+  )
+}
+
 
 export default Card
