@@ -11,7 +11,7 @@ import youtube from "../assets/footer/youtube.svg";
 const Footer = () => {
   return (
     <div>
-      <div className="footer p-5 w-full bg-lightGreen flex flex-row">
+      <div className="footer p-5 mt-5 mb-5 w-full bg-lightGreen flex flex-row">
         <div className="footer-sec-1 p-3  w-[50%] m-3">
           <img className="" src={codame} />
           <h3 className="m-1 text-2xl  font-medium text-left">
