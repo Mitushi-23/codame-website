@@ -23,19 +23,16 @@ export default function Events(){
         <div className="space-y-24">
         <div className="text-darkBlue text-center font-mono font-bold text-4xl">Upcoming events</div>
         <div className="flex flex-row justify-evenly">
-            <Card/>
-            <Card/>
-            <Card/>
+        <Card category="UpcomingEvents"/>
+            
         </div>
         </div>
         <div className="space-y-24">
         <div className="text-darkBlue text-center font-mono font-bold text-4xl">Past events</div>
         <div className="flex flex-row justify-evenly">
-        <Card/>
-        <Card/>
-        <Card/>
-            
-       
+        
+            <Card category="PastEvents"/>
+        
         </div>
         </div>
        

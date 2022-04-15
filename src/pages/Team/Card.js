@@ -65,6 +65,7 @@ export default function Card(props) {
     return (
       <>
         {CPData.map((data, key) => {
+      console.log(data.ImgUrl)
           return (
             <div key={key}>
               <TeamMember

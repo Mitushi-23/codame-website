@@ -5,7 +5,7 @@ import logo from "../../assets/logo.png";
 import vector from "../../assets/vector.svg";
 import enc from "../../assets/enc.png";
 import work from "../../assets/work.webp";
-import { Circle } from "react-awesome-shapes";
+// import { Circle } from "react-awesome-shapes";
 
 export default function Home() {
   return (
